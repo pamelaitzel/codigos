@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Ordenamiento por Burbuja</title>
+    <title>Serie de Fibonacci con Recursividad</title>
 </head>
+<link rel="stylesheet" href="css/style.css">
 <body>
-    <div class="container">
-        <h2>Ordenamiento por Burbuja</h2>
-        <input type="text" id="numInput" placeholder="ingrese numeros separados por comas">
-        <button onclick="ordenar()">Ordenar</button>
-        <div id="output"></div>
-    </div>
-    <script src="js/functions.js"></script>
+    <div class="form-container">
+    <h1>Serie de Fibonacci</h1>
+     <label for="numero">Ingresa un número:</label>
+    <input type="number" id="numero" min="0" step="1">
+    <button onclick="generarSerieFibonacci()">Generar Serie </button>
+
+    <h2>Resultado:</h2>
+    <ul id="resultado"></ul>
+</div>
+ <script src="js/functions.js"></script>
 </body>
 </html>
-
